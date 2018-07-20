@@ -1,0 +1,721 @@
+.ImportFriendsCallout-list li:before {
+    background-color: #545454 !important;
+}
+
+.HomeNavPopover {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.HomeNavPopover-arrow {
+    border-left: 1px solid #1d1d1d !important;
+    border-top: 1px solid #1d1d1d !important;
+    background-color: #282828 !important;
+}
+
+.FollowPopover {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.FollowPopover-arrow {
+    border-color: #1d1d1d !important;
+    background-color: #282828 !important;
+}
+
+.PillList-label:hover {
+    background-color: #242424 !important;
+}
+
+.Radio-fake {
+    border: 1px solid #545454 !important;
+    background-color: #282828 !important;
+}
+
+.StartPage-footer-wrapper {
+    border-top-color: #545454 !important;
+}
+
+.StartPage-disclaimer {
+    color: #545454 !important;
+}
+
+.StartFindFriends-timelineHeader {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.StartTypeahead-input {
+    background-color: #242424 !important;
+}
+
+.StartTypeahead-input:focus {
+    background-color: #282828 !important;
+}
+
+.StartExitTransitionDialog {
+    background-color: #282828 !important;
+}
+
+.UIWalkthrough .moments {
+    background-color: #282828 !important;
+}
+
+.StartImport-service-logo {
+    border: 1px solid #545454 !important;
+}
+
+.ListCreationModule {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileAvatar {
+    background: #282828 !important;
+    border: 5px solid #282828 !important;
+}
+
+.ProfileCanopy-navBar {
+    background-color: #282828 !important;
+}
+
+.ProfileCustomTimelineItem {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.ProfileHeading-content {
+    background-color: #282828 !important;
+}
+
+.ProfileHeading-toggleItem {
+    color: #545454 !important;
+}
+
+.ProfileHeading-description {
+    background-color: #282828 !important;
+}
+
+.ProfileListItem {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.ProfileListItem-listActions {
+    color: #545454 !important;
+}
+
+.ProfileListsTimeline .GridTimeline-items.has-items {
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileListsTimeline .GridTimeline-end:not(.has-items) {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileNav-item--userActions {
+    background-color: #282828 !important;
+}
+
+.ProfilePage--hidingAvatar.is-showingWarning .ProfileCanopy-header {
+    background-color: #545454 !important;
+}
+
+.ProfilePage-timelineHeader {
+    background: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfilePrefilledTweet .tweet {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileSidebar .TweetImpressionsModule, .ProfileSidebar .ProfileLifelineInfo, .ProfileSidebar .RelatedUsers {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileTimeline-separationModule {
+    background: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.StreamToggler-link {
+    color: #545454 !important;
+}
+
+.Trends {
+    background-color: #282828 !important;
+}
+
+.Trends--wide .flex-module {
+    background-color: #282828 !important;
+}
+
+.VideoGuide-header {
+    background-color: #282828 !important;
+}
+
+.VideoGuide-item:hover, .VideoGuide-item:focus {
+    background-color: #242424 !important;
+}
+
+.TweetImpressionsModule-xAxis {
+    background-color: #545454 !important;
+}
+
+.RelatedUsers {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileUserMomentsTimeline .GridTimeline-items.has-items {
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileUserMomentsTimeline .MomentCapsuleSummary {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveFiltersBar {
+    background-color: #282828 !important;
+}
+
+.AdaptiveRelatedSearches {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.FollowSearchNux-container {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.SidebarFilterModule {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveNewsLargeImageHeadline-image {
+    background-color: #282828 !important;
+}
+
+.AdaptiveNewsLargeImageHeadline-body {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveNewsRelatedHeadlines {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveNewsRelatedHeadlines-headline {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveNewsSmallImageHeadline-body {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveNewsTextHeadline-body {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveGeoPlace {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveSearchTimeline .stream .stream-item:first-child {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveSearchTimeline-separationModule+.stream-item {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.AdaptiveSearchTimeline-beforeModule:not(.AdaptiveSearchTimeline-separationModule) {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.Streams {
+    background-color: #242424 !important;
+}
+
+.Streams-module {
+    background-color: #282828 !important;
+}
+
+.Streams .stream-items .stream-item:first-child {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.Streams .stream-end-inner {
+    background-color: #242424 !important;
+}
+
+.Streams-divider:before {
+    background: #545454 !important;
+}
+
+.Streams-dividerText {
+    background-color: #242424 !important;
+}
+
+.StreamsColor .InStreamSignup .SignupForm-submit, .StreamsColor .InStreamSignup .SignupForm-submit:active, .StreamsColor .InStreamSignup .SignupForm-submit:focus, .StreamsColor .InStreamLogin .EdgeButton.submit, .StreamsColor .InStreamLogin .EdgeButton.submit:active, .StreamsColor .InStreamLogin .EdgeButton.submit:focus {
+    background-color: #282828 !important;
+}
+
+.StreamsFooter {
+    border-top: 1px solid #1d1d1d !important;
+    background-color: #282828 !important;
+}
+
+.StreamsTopBar {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.StreamsTopBar-searchInput {
+    background-color: #1d1d1d !important;
+}
+
+.Streams .TweetForwardTimeline .tweet {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.StreamsCategoryBar-item+.StreamsCategoryBar-item {
+    border-left: 1px solid #1d1d1d !important;
+}
+
+.InStreamSignup .SignupForm-submit, .InStreamLogin .EdgeButton--primary.submit {
+    background-color: #282828 !important;
+}
+
+.Streams .TweetForwardTimeline .AdaptiveMedia {
+    border: 1px solid #1d1d1d !important;
+}
+
+.login-responsive .page-canvas {
+    background-color: #282828 !important;
+}
+
+.login-responsive .mobile, .route-resend-password .mobile, .contact-support {
+    background-color: #242424 !important;
+}
+
+.front-welcome-text {
+    color: #545454 !important;
+}
+
+.front-signup h2, .front-signin h2 {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.front-warning {
+    color: #545454 !important;
+}
+
+.front-page-photo-set .front-signin {
+    background: #282828 !important;
+}
+
+.front-page-photo-set .front-signup {
+    background: #282828 !important;
+}
+
+.front-page-photo-set .front-signin .text-input, .front-page-photo-set .front-signup .text-input {
+    border: 1px solid #545454 !important;
+}
+
+.SignupCallOut {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.SignupDialog .SignupDialog-footer {
+    border-color: #1d1d1d !important;
+}
+
+.LoginCallOut {
+    background-color: #999 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.LoginDialog .LoginDialog-footer {
+    border-color: #1d1d1d !important;
+}
+
+.StaticLoggedOutHomePage-content {
+    background-color: #282828 !important;
+}
+
+.StaticLoggedOutHomePage .StreamsFooter-list {
+    background: #282828 !important;
+}
+
+.SlidedownOptions-content {
+    border-top: 1px solid #545454 !important;
+}
+
+.MomentsPage.MomentsPermalinkPage, .MomentsPage.MomentsGuidePage {
+    background-color: #282828 !important;
+}
+
+.MomentSensitiveContentDialog .modal-body {
+    background-color: #282828 !important;
+}
+
+.MomentMediaItem {
+    background-color: #1d1d1d !important;
+}
+
+.MomentButton[disabled], .MomentButton[disabled]:hover {
+    color: #545454 !important;
+}
+
+.MomentDialog-header, .MomentDialog-footer {
+    background-color: #242424 !important;
+}
+
+.MomentFloatingMenu {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.MomentFormatLink-anchor {
+    border: 1px solid #545454 !important;
+}
+
+.MomentFormatLink-anchor:active, .MomentFormatLink-anchor:focus, .MomentFormatLink-anchor:hover {
+    background-color: #242424 !important;
+}
+
+.MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled], .MomentSummaryActionsMenu .dropdown-menu .dropdown-link[disabled]:hover {
+    background-color: #282828 !important;
+}
+
+.MomentTweetActions {
+    color: #545454 !important;
+}
+
+.MomentCapsuleItem:first-of-type .MomentMakerActionButtons-button--up, .MomentCapsuleItem:last-of-type .MomentMakerActionButtons-button--down {
+    color: #1d1d1d !important;
+}
+
+.MomentCapsuleItemTweet .MomentFormatCard.card2[data-card2-name^="poll"] {
+    background-color: #282828 !important;
+}
+
+.MomentCapsuleItemTweet .QuoteTweet {
+    border-color: #545454 !important;
+}
+
+.MomentCapsuleItemTweet .QuoteTweet:active, .MomentCapsuleItemTweet .QuoteTweet:focus, .MomentCapsuleItemTweet .QuoteTweet:hover {
+    background-color: #242424 !important;
+}
+
+.MomentCapsuleItemTweet--withText {
+    background-color: #242424 !important;
+}
+
+.MomentCapsuleSummary-cover {
+    background-color: #545454 !important;
+}
+
+.MomentCapsuleSummary--card {
+    background: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.MomentCapsuleSummary--tiny {
+    border-bottom: 1px solid #545454 !important;
+}
+
+.MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover {
+    background: #242424 !important;
+}
+
+.MomentCapsuleSummaryGroup:nth-child(2n+3) {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.MomentGuideNavigation {
+    background-color: #282828 !important;
+}
+
+.MomentsPermalinkPage-related {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+body:not(.swift-loading) .MomentCapsuleEditableMeta .is-showPlaceholder:before {
+    color: #545454 !important;
+}
+
+body:not(.swift-loading) .MomentCapsuleEditableMeta .is-showPlaceholder:focus:before {
+    color: #1d1d1d !important;
+}
+
+.MomentMakerCapsuleCover-empty {
+    background-color: #242424 !important;
+}
+
+.MomentMakerCoverCropper {
+    background-color: #282828 !important;
+}
+
+.MomentMakerCoverDialog .modal-body {
+    background: #242424 !important;
+}
+
+.MomentMakerCoverDialog-cell {
+    border: 2px solid #242424 !important;
+}
+
+.MomentMakerCoverDialog-cell--upload {
+    background-color: #282828 !important;
+}
+
+.MomentMakerCoverDialog-cell--image:hover::after {
+    background-color: #282828 !important;
+}
+
+.MomentMakerCropBeforePublishDialog .modal-body {
+    background: #242424 !important;
+}
+
+.MomentMakerCropBeforePublishDialog-cellPlaceholder {
+    background: #1d1d1d !important;
+    border: 2px solid #242424 !important;
+}
+
+.MomentMakerCropOverlay-cropArea .ui-resizable-handle {
+    background-color: #282828 !important;
+}
+
+.MomentMakerCropOverlay-cropArea .ui-resizable-sw:after, .MomentMakerCropOverlay-cropArea .ui-resizable-se:after, .MomentMakerCropOverlay-cropArea .ui-resizable-nw:after, .MomentMakerCropOverlay-cropArea .ui-resizable-ne:after {
+    background: #282828 !important;
+}
+
+.MomentMakerMediaInlinePreview+.MomentCapsuleItem .MomentMakerActionButtons-button--up {
+    color: #1d1d1d !important;
+}
+
+.MomentMakerPage {
+    background-color: #242424 !important;
+}
+
+.MomentMakerPage-content {
+    background-color: #282828 !important;
+}
+
+.MomentMakerPage.hasCoverOverlay {
+    background-color: #282828 !important;
+}
+
+.MomentMakerPage.hasCoverOverlay .topbar.MomentMakerTopBar-background {
+    background-color: #282828 !important;
+}
+
+.MomentMakerRecommendations {
+    background-color: #242424 !important;
+}
+
+.MomentMakerRecommendations-module {
+    background-color: #282828 !important;
+    border: 1px solid #545454 !important;
+}
+
+.MomentMakerRecommendations-more {
+    background-color: #242424 !important;
+    border-top: 1px solid #545454 !important;
+}
+
+.MomentMakerRecommendations-more:hover {
+    background-color: #1d1d1d !important;
+}
+
+.MomentMakerRecommendations-scrollTopButton {
+    background-color: #282828 !important;
+    border: 1px solid #545454 !important;
+}
+
+.MomentMakerSortMenu .dropdown-menu {
+    border: 1px solid #1d1d1d !important;
+}
+
+.MomentMakerThemeColorDialog-body {
+    background-color: #242424 !important;
+}
+
+.MomentMakerTopBarDropdownMenu .dropdown-menu .dropdown-link[disabled], .MomentMakerTopBarDropdownMenu .dropdown-menu .dropdown-link[disabled]:hover {
+    background-color: #282828 !important;
+}
+
+.MutedKeyword-item {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.MutedKeywordsAddItemForm {
+    background: #282828 !important;
+}
+
+.MutedKeywordsFooter {
+    background: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.PlayableMedia-container {
+    border: 1px solid #1d1d1d !important;
+}
+
+.PlayableMedia--clickable:hover {
+    background: #242424 !important;
+    border-color: #545454 !important;
+}
+
+.PlayableMedia-player {
+    background-color: #545454 !important;
+}
+
+.ui-widget-content {
+    background-color: #282828 !important;
+}
+
+.ui-widget-header {
+    background-color: #545454 !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background-color: #282828 !important;
+}
+
+.image-upload-webcam .video-countdown {
+    background-color: #282828 !important;
+}
+
+.cropper-slider {
+    background-color: #1d1d1d !important;
+}
+
+.cropper-slider .ui-slider-handle {
+    background-color: #282828 !important;
+    background: #282828 !important;
+}
+
+.ui-slider-handle.ui-state-active {
+    background: #1d1d1d !important;
+}
+
+.ProfileAvatarEditing {
+    background: #282828 !important;
+}
+
+.BirthdateSelect-button {
+    background-color: #282828 !important;
+}
+
+.ProfileOnboarding-module {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ProfileOnboarding .dismiss {
+    color: #545454 !important;
+}
+
+.ProfileOnboarding-caret {
+    border-bottom: 10px solid #1d1d1d !important;
+}
+
+.ProfileOnboardingProgress-bar {
+    background-color: #1d1d1d !important;
+}
+
+.ReonboardingCallout-dismiss {
+    color: #545454 !important;
+}
+
+.LiveVideoPage {
+    background-color: #282828 !important;
+}
+
+.LiveVideoPage.logged-out .stream-container {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.LiveVideoPage .LiveVideo-tweetBox {
+    border: 1px solid #1d1d1d !important;
+}
+
+.LiveVideoPage-mediaContainer {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.LiveVideoOfficialAccount {
+    background-color: #282828 !important;
+}
+
+.LiveVideoOfficialAccount-card {
+    border: 1px solid #1d1d1d !important;
+}
+
+.LiveVideoTimelineNavigation {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.EventInterstitialDialog .modal-body {
+    background-color: #282828 !important;
+}
+
+.LiveBroadcastDetails {
+    background-color: #282828 !important;
+}
+
+.LiveBroadcastPage {
+    background-color: #282828 !important;
+}
+
+.LiveEventOfficialAccount {
+    background-color: #282828 !important;
+}
+
+.LiveEventOfficialAccount-title {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.LiveEventPage {
+    background-color: #1d1d1d !important;
+}
+
+.LiveEventPage .LiveEvent-tweetBox {
+    border: 1px solid #1d1d1d !important;
+}
+
+.LiveEventPage-mediaContainer.LiveEventPage-mediaContainer--breakpoint {
+    background-color: #1d1d1d !important;
+}
+
+.LiveEventSportsScores {
+    background: #282828 !important;
+}
+
+.LiveEventSportsScores-contentWrapper {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.LiveEventSportsScores-sportsGame {
+    border-left: 1px solid #1d1d1d !important;
+}
+
+.LiveEventTimelineNavigation {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}

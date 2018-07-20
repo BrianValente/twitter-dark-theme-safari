@@ -1,0 +1,748 @@
+.datepicker-dropdown:before {
+    border-bottom: 7px solid #1d1d1d !important;
+}
+
+.datepicker table tr td.range, .datepicker table tr td.range:hover, .datepicker table tr td.range.disabled, .datepicker table tr td.range.disabled:hover {
+    background: #1d1d1d !important;
+}
+
+.datepicker table tr td span:hover {
+    background: #1d1d1d !important;
+}
+
+.input-daterange .input-group-addon {
+    border: solid #1d1d1d !important;
+}
+
+.datepicker.dropdown-menu {
+    background-color: #282828 !important;
+}
+
+.permalink-tweet, .permalink-tweet:hover {
+    background-color: #282828 !important;
+}
+
+.permalink .inline-reply-tweetbox-container {
+    background-color: #282828 !important;
+}
+
+.permalink .inline-reply-tweetbox {
+    background-color: #242424 !important;
+}
+
+.permalink .stream-end .Icon--logo {
+    color: #545454 !important;
+}
+
+.suggested-tweet-stream {
+    background: #282828 !important;
+}
+
+.suggested-tweet-stream .tweet:hover {
+    background-color: #282828 !important;
+}
+
+.permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item, .permalink .in-reply-to #ancestors:not(.ThreadedConversation) .stream-item .tweet:hover {
+    background-color: #242424 !important;
+}
+
+.thumbnail-divot {
+    border-color: transparent transparent #1d1d1d transparent !important;
+}
+
+.thumbnails {
+    background: #545454 !important;
+    box-shadow: 0 1px 0 #fff,inset 0 1px #545454 !important;
+}
+
+.search {
+    background-color: #282828 !important;
+}
+
+.basic-search .input-wrapper .search-input {
+    background-color: #242424 !important;
+}
+
+.advanced-search .chk-inner, .advanced-search select, .advanced-search input[type=text] {
+    background-color: #242424 !important;
+}
+
+.embedded-tweet {
+    background-color: #242424 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+#retweet-dialog .tweet {
+    border: 1px solid #1d1d1d !important;
+}
+
+.profile-modal-extended .divider {
+    color: #545454 !important;
+}
+
+.embed-code-container .embed-overlay-error .embed-overlay-content {
+    border: 1px solid #545454 !important;
+}
+
+.embed-code-container textarea {
+    border: 1px solid #545454 !important;
+}
+
+.modal-table-bordered {
+    border-right: 1px solid #1d1d1d !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.modal-table-bordered th, .modal-table-bordered td {
+    border-left: 1px solid #1d1d1d !important;
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.modal-table-bordered th {
+    background-color: #242424 !important;
+}
+
+.sc-key {
+    background-color: #1d1d1d !important;
+    border: 1px solid #545454 !important;
+}
+
+.dm-media-preview {
+    background-color: #242424 !important;
+}
+
+.route-logout .page-canvas.signout-page {
+    background-color: #282828 !important;
+}
+
+.page-canvas.rate-limited {
+    background-color: #282828 !important;
+}
+
+.four-twenty div.footer {
+    background: #1d1d1d !important;
+}
+
+.find-friends-results .component .invite-contacts-component, .listview-find-friends-results .component .invite-contacts-component {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.contact-import-invite-header p {
+    background-color: #242424 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.listview-find-friends-results {
+    background-color: #282828 !important;
+}
+
+.people-chooser-list .contacts {
+    border-top: 1px solid #1d1d1d !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.people-chooser-list .contact-item {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.contacts-content-footer {
+    border: 1px solid #1d1d1d !important;
+    background-color: #282828 !important;
+}
+
+.scrolling-user-list {
+    border-right: 1px solid #1d1d1d !important;
+}
+
+.listview-find-friends-result.selected {
+    background-color: #242424 !important;
+}
+
+.view-all-button a.list-link.follow-more-suggestions {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.EmailConfirmation .flex-module-header {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.input-prepend .add-on, .input-append .add-on {
+    background-color: #242424 !important;
+    border: 1px solid #545454 !important;
+}
+
+.select-row {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.notifications-prompt-container {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.notifications-verified-user {
+    border: 1px solid #1d1d1d !important;
+}
+
+#notifications-optout-all-top {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+#notifications-optout-all-bottom {
+    background-color: #282828 !important;
+}
+
+.uploader-background .image-preview {
+    background-color: #545454 !important;
+}
+
+.sms-form code {
+    border: 1px solid #545454 !important;
+}
+
+.device-command {
+    background-color: #242424 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.facebook-account-group {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.backup-code-display {
+    border: 1px solid #1d1d1d !important;
+}
+
+.widgets .flex-module {
+    background: #282828 !important;
+}
+
+.widgets .preview {
+    background: #282828 !important;
+}
+
+.top-levels {
+    border: 1px solid #1d1d1d !important;
+}
+
+.top-levels>hr {
+    border-color: #1d1d1d !important;
+}
+
+.character-links>a.character:hover {
+    background-color: #282828 !important;
+}
+
+.content-directory {
+    background-color: #282828 !important;
+}
+
+.modal-content {
+    background-color: #282828 !important;
+}
+
+#promptbird-modal-prompt-dialog .modal-content {
+    border: 1px solid #1d1d1d !important;
+}
+
+.modal-header {
+    background: #282828 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+#activity-popup-dialog .modal-content {
+    background: #242424 !important;
+}
+
+#activity-popup-dialog .modal-header {
+    background: #282828 !important;
+}
+
+.activity-popup-dialog-content .tweet:hover {
+    background-color: #282828 !important;
+}
+
+.activity-popup-dialog-content .tweet {
+    background-color: #282828 !important;
+}
+
+.activity-popup-dialog-users .account, .activity-popup-dialog-in-reply-to-user .account {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+#activity-popup-dialog.reply-users-popup .modal-content, #activity-popup-dialog.reply-users-popup .activity-popup-dialog-in-reply-to-user .stream-item {
+    background-color: #242424 !important;
+}
+
+#activity-popup-dialog.reply-users-popup .modal-content .activity-popup-dialog-users .stream-item {
+    background-color: #282828 !important;
+}
+
+#activity-popup-dialog.reply-users-popup .activity-popup-dialog-users .account, #activity-popup-dialog.reply-users-popup .activity-popup-dialog-other-reply-users {
+    border-top: 1px solid #545454 !important;
+    border-bottom: 1px solid #545454 !important;
+}
+
+.trends-breadcrumb {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.trends-breadcrumb .separator {
+    color: #545454 !important;
+}
+
+.trend-location-picker-item.selected {
+    background-color: #242424 !important;
+    border-color: #1d1d1d !important;
+}
+
+.stream-container .AdaptiveStreamGridImage .grid-tweet-actions-container {
+    background: #242424 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.feedback-dialog .nav-tabs a.tab-disabled {
+    color: #545454 !important;
+}
+
+.block-dialog .block-section {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.phone-deletion-dialog .phone-deletion-section {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.block-dialog .submit-section, .phone-deletion-dialog .submit-section {
+    background-color: #242424 !important;
+}
+
+#global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet {
+    background: #282828 !important;
+}
+
+.hovercard {
+    background-color: #282828 !important;
+}
+
+.hovercard .arrow {
+    background-color: #282828 !important;
+}
+
+.hovercard.gravity-south:not(.with-banner) .arrow {
+    background-color: #282828 !important;
+}
+
+.hovercard.profile-card .ProfileCard-sensitiveBg {
+    background-color: #545454 !important;
+}
+
+.hovercard .profile-social-proof {
+    background: #282828 !important;
+}
+
+.hovercard.profile-card.profile-header .DashboardProfileCard-stats {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #242424 #242424 #1d1d1d !important;
+    background: #242424 !important;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.wrapper-custom_timeline .custom-timeline-follow-card {
+    background-color: #282828 !important;
+}
+
+.wrapper-custom_timeline .custom-timeline-follow-card .flex-module {
+    border-bottom: 4px solid #1d1d1d !important;
+}
+
+.self-thread-permalink-cta {
+    background-color: #282828 !important;
+}
+
+.SessionsSettings--row .SessionsSettings--row-time-active {
+    background-color: #1d1d1d !important;
+}
+
+.ColorPicker {
+    background-color: #282828 !important;
+}
+
+.ColorPicker .caret-outer {
+    border-bottom-color: #1d1d1d !important;
+}
+
+.ColorPicker-hex {
+    background-color: #1d1d1d !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ColorPicker .ColorPicker-item .ColorPicker-hexInput {
+    border: 1px solid #1d1d1d !important;
+}
+
+.ColorPicker-colorList .Icon--check::before {
+    color: #1d1d1d !important;
+}
+
+.ColorPicker-hexInput.is-focused {
+    border-color: #1d1d1d !important;
+}
+
+.ContactsDashboard td, .ContactsDashboard th {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.ContactsDashboard .contacts-toggle {
+    border-top: 1px solid #1d1d1d !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.NuxRecommendationStreamItem-accountUnfollow {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.EmojiPicker-content.Caret:after {
+    border-color: #242424 !important;
+}
+
+.EmojiPicker-categoryColumn {
+    border-right: 1px solid #1d1d1d !important;
+}
+
+.EmojiPicker-query {
+    background-color: #242424 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.EmojiPicker-clearQuery {
+    color: #545454 !important;
+}
+
+.EmojiPicker-categoryHeader {
+    background-color: #343434 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.EmojiPicker-diversityRow {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.Popover-text {
+    background: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.Gallery-content {
+    background-color: #1d1d1d !important;
+}
+
+.Gallery .modal-header {
+    background: #282828 !important;
+    border-bottom: 1px solid #242424 !important;
+}
+
+.Gallery-media {
+    --background: #1d1d1d !important;
+}
+
+.FoundMediaSearch-query {
+    background-color: #242424 !important;
+}
+
+.FoundMediaSearch-content.Caret:after {
+    border-color: #242424 !important;
+}
+
+.FoundMediaSearch-focusable {
+    border: 3px solid #242424 !important;
+}
+
+.NotificationsPage .PromptbirdPrompt-streamItem .PromptbirdPrompt {
+    border-color: #1d1d1d !important;
+}
+
+.NotificationsHeadingContent {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.NotificationsEmptyModule {
+    border: 1px solid #1d1d1d !important;
+    background-color: #282828 !important;
+}
+
+.TranslationFeedbackDialog-translationInput {
+    border: 1px solid #545454 !important;
+}
+
+.MediaEditDialog .modal-body, .MediaEditDialog .modal-footer {
+    background-color: #282828 !important;
+}
+
+.VideoTrim-selection, .VideoTrim-hideTicks {
+    background: #282828 !important;
+}
+
+.ProfileAlerts .content {
+    background-color: #282828 !important;
+}
+
+.ProfileAlerts .alerts-footer li a {
+    color: #545454 !important;
+}
+
+.PermalinkOverlay-spinnerContainer {
+    background-color: #282828 !important;
+}
+
+#user-data-dashboard .other-data {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.UserDataDownload-buttonRow {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.ThreadedConversation--header {
+    background-color: #282828 !important;
+}
+
+.ThreadedConversation, .ThreadedConversation--loneTweet {
+    background-color: #282828 !important;
+}
+
+.ThreadedConversation, .ThreadedConversation-moreReplies:after {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.ThreadedConversation-showMoreThreads:after {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.ThreadedConversation-showMoreThreads {
+    background: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.ComposerDragHelp {
+    color: #545454 !important;
+}
+
+.ComposerThumbnail {
+    background-color: #545454 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.ComposerVideoInfo {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.PollingCardComposer {
+    background-color: #242424 !important;
+    box-shadow: inset 0 1px 0 #545454 !important;
+}
+
+.PollingCardComposer .PollingCardComposer-removeOption {
+    color: #545454 !important;
+}
+
+.PollingCardComposer .PollingCardComposer-pollDuration {
+    border-top: solid 1px #545454 !important;
+}
+
+.MomentAnalyticsDialog-card .MomentCapsuleSummary--small {
+    border: 1px solid #1d1d1d !important;
+}
+
+.MomentAnalyticsDialog-disclaimer {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.MomentCapsuleSummaryListDialog .MomentCapsuleSummary {
+    border-bottom: 1px #1d1d1d solid !important;
+}
+
+.DirectMessage-location, .DirectMessage-card {
+    background: #282828 !important;
+}
+
+.DirectMessage--received .DirectMessage-message.with-tweet .DirectMessage-attachmentContainer {
+    border: 1px solid #1d1d1d !important;
+}
+
+.DirectMessage-message.with-location .DirectMessage-attachmentContainer, .DirectMessage-message.with-cta .DirectMessage-ctaContainer {
+    border: 1px solid #1d1d1d !important;
+}
+
+.DirectMessage--received .DirectMessage-text {
+    background-color: #1d1d1d !important;
+}
+
+.DMActivity-header {
+    background-color: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.DMActivity-body {
+    background-color: #282828 !important;
+}
+
+.DMButtonBar {
+    background-color: #242424 !important;
+}
+
+.DMComposer-container {
+    background-color: #282828 !important;
+}
+
+.DMComposer-editor.is-showPlaceholder:before {
+    color: #545454 !important;
+}
+
+.DMComposer-attachment {
+    border-bottom: 1px solid #545454 !important;
+}
+
+.DMConversation-composer {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMConversation-readOnlyFooter {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMConversation-newMessagesPill {
+    background-color: #282828 !important;
+}
+
+.DMConversationSettings-notifications {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMConversationSettings-mentions {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.DMConversationSettings-participants .view-dm-participants {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMConversationSettings-footer {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMCtaView {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.DMDivider {
+    background-color: #282828 !important;
+}
+
+.DMDivider:before {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.DMInbox-tab {
+    background: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.DMInbox-secondaryInboxCopy {
+    background: #282828 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.DMInboxItem {
+    border-bottom: 1px solid #1d1d1d !important;
+}
+
+.DMInboxItem:hover {
+    background-color: #242424 !important;
+}
+
+.DMPopover-content {
+    background-color: #282828 !important;
+}
+
+.DMTrustRequest {
+    background: #282828 !important;
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMUpdateAvatar-avatar:empty {
+    background-color: #1d1d1d !important;
+}
+
+.InputToken:focus {
+    background-color: #282828 !important;
+}
+
+.DMTokenizedMultiselectSuggestion.is-highlighted {
+    background-color: #242424 !important;
+    border-bottom: 1px solid #1d1d1d !important;
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.TypingIndicatorMessageBubble.Caret::before {
+    border-color: #1d1d1d !important;
+}
+
+.TypingIndicatorMessageBubble-dotContainer {
+    background: #1d1d1d !important;
+}
+
+.DMFeedback {
+    border-top: 1px solid #1d1d1d !important;
+    background-color: #282828 !important;
+}
+
+.DMQuickReply-optionText {
+    background-color: #282828 !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.DMQuickReply-optionText:hover {
+    background-color: #242424 !important;
+}
+
+.DMQuickReply.is-selected .DMQuickReply-optionText, .DMQuickReply.is-selected .DMQuickReply-optionDescription, .DMQuickReply.is-selected .DMQuickReply-optionText:hover, .DMQuickReply.is-selected .DMQuickReply-optionDescription:hover {
+    background-color: #282828 !important;
+    color: #545454 !important;
+}
+
+.DMLocationAttachment {
+    border: 1px solid #1d1d1d !important;
+}
+
+.DMLocationAttachment:hover .DMLocationAttachment-text {
+    background-color: #242424 !important;
+}
+
+.DMLocationAttachment-text {
+    border-top: 1px solid #1d1d1d !important;
+}
+
+.DMInboxItem.is-unread,
+.DMNotice,
+.DMConversation-readOnlyFooter {
+    background-color: #434343 !important;
+}

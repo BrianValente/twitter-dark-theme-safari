@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A61999720C85019006DDEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61999620C85019006DDEDA /* AppDelegate.swift */; };
+		4A61999920C85019006DDEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61999820C85019006DDEDA /* ViewController.swift */; };
+		4A61999B20C8501A006DDEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A61999A20C8501A006DDEDA /* Assets.xcassets */; };
+		4A61999E20C8501A006DDEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A61999C20C8501A006DDEDA /* Main.storyboard */; };
+		4A6199AD20C8503F006DDEDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6199AC20C8503F006DDEDA /* Cocoa.framework */; };
+		4A6199B020C8503F006DDEDA /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6199AF20C8503F006DDEDA /* SafariExtensionHandler.swift */; };
+		4A6199B220C8503F006DDEDA /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6199B120C8503F006DDEDA /* SafariExtensionViewController.swift */; };
+		4A6199B520C8503F006DDEDA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6199B320C8503F006DDEDA /* SafariExtensionViewController.xib */; };
+		4A6199B820C8503F006DDEDA /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4A6199B720C8503F006DDEDA /* script.js */; };
+		4A6199BA20C8503F006DDEDA /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6199B920C8503F006DDEDA /* ToolbarItemIcon.pdf */; };
+		4A6199BE20C8503F006DDEDA /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4A6199AA20C8503F006DDEDA /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4AA08D0120D0AEF1008FBF8B /* extras.css in Resources */ = {isa = PBXBuildFile; fileRef = 4AA08D0020D0AEF1008FBF8B /* extras.css */; };
+		4AAAC8CA20C85CA40053FE36 /* nightmode_twitter_core.bundle.css in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAC8C720C85CA40053FE36 /* nightmode_twitter_core.bundle.css */; };
+		4AAAC8CB20C85CA40053FE36 /* nightmode_twitter_more_1.bundle.css in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAC8C820C85CA40053FE36 /* nightmode_twitter_more_1.bundle.css */; };
+		4AAAC8CC20C85CA40053FE36 /* nightmode_twitter_more_2.bundle.css in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAC8C920C85CA40053FE36 /* nightmode_twitter_more_2.bundle.css */; };
+		4AF319952101CC4100B304D1 /* NSButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF319942101CC4100B304D1 /* NSButtonLabel.swift */; };
+		4AF319972101CFF600B304D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4AF319962101CFF500B304D1 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6199BC20C8503F006DDEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A61998B20C85019006DDEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6199A920C8503F006DDEDA;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A6199C220C85040006DDEDA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4A6199BE20C8503F006DDEDA /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A61999320C85019006DDEDA /* Twitter Dark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Dark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A61999620C85019006DDEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A61999820C85019006DDEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A61999A20C8501A006DDEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A61999D20C8501A006DDEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A61999F20C8501A006DDEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6199A020C8501A006DDEDA /* Twitter_Dark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Twitter_Dark.entitlements; sourceTree = "<group>"; };
+		4A6199AA20C8503F006DDEDA /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6199AC20C8503F006DDEDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A6199AF20C8503F006DDEDA /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		4A6199B120C8503F006DDEDA /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		4A6199B420C8503F006DDEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		4A6199B620C8503F006DDEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6199B720C8503F006DDEDA /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		4A6199B920C8503F006DDEDA /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		4A6199BB20C8503F006DDEDA /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
+		4AA08D0020D0AEF1008FBF8B /* extras.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = extras.css; sourceTree = "<group>"; };
+		4AAAC8C720C85CA40053FE36 /* nightmode_twitter_core.bundle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = nightmode_twitter_core.bundle.css; sourceTree = "<group>"; };
+		4AAAC8C820C85CA40053FE36 /* nightmode_twitter_more_1.bundle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = nightmode_twitter_more_1.bundle.css; sourceTree = "<group>"; };
+		4AAAC8C920C85CA40053FE36 /* nightmode_twitter_more_2.bundle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = nightmode_twitter_more_2.bundle.css; sourceTree = "<group>"; };
+		4AF319942101CC4100B304D1 /* NSButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSButtonLabel.swift; sourceTree = "<group>"; };
+		4AF319962101CFF500B304D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A61999020C85019006DDEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6199A720C8503F006DDEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6199AD20C8503F006DDEDA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A61998A20C85019006DDEDA = {
+			isa = PBXGroup;
+			children = (
+				4AF319962101CFF500B304D1 /* README.md */,
+				4A61999520C85019006DDEDA /* Twitter Dark */,
+				4A6199AE20C8503F006DDEDA /* Extension */,
+				4A6199AB20C8503F006DDEDA /* Frameworks */,
+				4A61999420C85019006DDEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A61999420C85019006DDEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A61999320C85019006DDEDA /* Twitter Dark.app */,
+				4A6199AA20C8503F006DDEDA /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A61999520C85019006DDEDA /* Twitter Dark */ = {
+			isa = PBXGroup;
+			children = (
+				4A61999620C85019006DDEDA /* AppDelegate.swift */,
+				4A61999820C85019006DDEDA /* ViewController.swift */,
+				4AF319942101CC4100B304D1 /* NSButtonLabel.swift */,
+				4A61999A20C8501A006DDEDA /* Assets.xcassets */,
+				4A61999C20C8501A006DDEDA /* Main.storyboard */,
+				4A61999F20C8501A006DDEDA /* Info.plist */,
+				4A6199A020C8501A006DDEDA /* Twitter_Dark.entitlements */,
+			);
+			path = "Twitter Dark";
+			sourceTree = "<group>";
+		};
+		4A6199AB20C8503F006DDEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A6199AC20C8503F006DDEDA /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6199AE20C8503F006DDEDA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A6199AF20C8503F006DDEDA /* SafariExtensionHandler.swift */,
+				4A6199B120C8503F006DDEDA /* SafariExtensionViewController.swift */,
+				4A6199B320C8503F006DDEDA /* SafariExtensionViewController.xib */,
+				4A6199B620C8503F006DDEDA /* Info.plist */,
+				4A6199B720C8503F006DDEDA /* script.js */,
+				4AAAC8C720C85CA40053FE36 /* nightmode_twitter_core.bundle.css */,
+				4AA08D0020D0AEF1008FBF8B /* extras.css */,
+				4AAAC8C820C85CA40053FE36 /* nightmode_twitter_more_1.bundle.css */,
+				4AAAC8C920C85CA40053FE36 /* nightmode_twitter_more_2.bundle.css */,
+				4A6199B920C8503F006DDEDA /* ToolbarItemIcon.pdf */,
+				4A6199BB20C8503F006DDEDA /* Extension.entitlements */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A61999220C85019006DDEDA /* Twitter Dark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6199A320C8501A006DDEDA /* Build configuration list for PBXNativeTarget "Twitter Dark" */;
+			buildPhases = (
+				4A61998F20C85019006DDEDA /* Sources */,
+				4A61999020C85019006DDEDA /* Frameworks */,
+				4A61999120C85019006DDEDA /* Resources */,
+				4A6199C220C85040006DDEDA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6199BD20C8503F006DDEDA /* PBXTargetDependency */,
+			);
+			name = "Twitter Dark";
+			productName = "Twitter Dark";
+			productReference = 4A61999320C85019006DDEDA /* Twitter Dark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A6199A920C8503F006DDEDA /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6199BF20C85040006DDEDA /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				4A6199A620C8503F006DDEDA /* Sources */,
+				4A6199A720C8503F006DDEDA /* Frameworks */,
+				4A6199A820C8503F006DDEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 4A6199AA20C8503F006DDEDA /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A61998B20C85019006DDEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Brian Valente";
+				TargetAttributes = {
+					4A61999220C85019006DDEDA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4A6199A920C8503F006DDEDA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4A61998E20C85019006DDEDA /* Build configuration list for PBXProject "Twitter Dark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A61998A20C85019006DDEDA;
+			productRefGroup = 4A61999420C85019006DDEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A61999220C85019006DDEDA /* Twitter Dark */,
+				4A6199A920C8503F006DDEDA /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A61999120C85019006DDEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF319972101CFF600B304D1 /* README.md in Resources */,
+				4A61999B20C8501A006DDEDA /* Assets.xcassets in Resources */,
+				4A61999E20C8501A006DDEDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6199A820C8503F006DDEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6199BA20C8503F006DDEDA /* ToolbarItemIcon.pdf in Resources */,
+				4AAAC8CB20C85CA40053FE36 /* nightmode_twitter_more_1.bundle.css in Resources */,
+				4AA08D0120D0AEF1008FBF8B /* extras.css in Resources */,
+				4AAAC8CA20C85CA40053FE36 /* nightmode_twitter_core.bundle.css in Resources */,
+				4AAAC8CC20C85CA40053FE36 /* nightmode_twitter_more_2.bundle.css in Resources */,
+				4A6199B520C8503F006DDEDA /* SafariExtensionViewController.xib in Resources */,
+				4A6199B820C8503F006DDEDA /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A61998F20C85019006DDEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A61999920C85019006DDEDA /* ViewController.swift in Sources */,
+				4AF319952101CC4100B304D1 /* NSButtonLabel.swift in Sources */,
+				4A61999720C85019006DDEDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6199A620C8503F006DDEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6199B220C8503F006DDEDA /* SafariExtensionViewController.swift in Sources */,
+				4A6199B020C8503F006DDEDA /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6199BD20C8503F006DDEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6199A920C8503F006DDEDA /* Extension */;
+			targetProxy = 4A6199BC20C8503F006DDEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A61999C20C8501A006DDEDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A61999D20C8501A006DDEDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A6199B320C8503F006DDEDA /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6199B420C8503F006DDEDA /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6199A120C8501A006DDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A6199A220C8501A006DDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A6199A420C8501A006DDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Twitter Dark/Twitter_Dark.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = "Twitter Dark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brianvalente.Twitter-Dark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4A6199A520C8501A006DDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Twitter Dark/Twitter_Dark.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = "Twitter Dark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "brianvalente.Twitter-Dark";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4A6199C020C85040006DDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianvalente.Twitter-Dark.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4A6199C120C85040006DDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "brianvalente.Twitter-Dark.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A61998E20C85019006DDEDA /* Build configuration list for PBXProject "Twitter Dark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6199A120C8501A006DDEDA /* Debug */,
+				4A6199A220C8501A006DDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6199A320C8501A006DDEDA /* Build configuration list for PBXNativeTarget "Twitter Dark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6199A420C8501A006DDEDA /* Debug */,
+				4A6199A520C8501A006DDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6199BF20C85040006DDEDA /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6199C020C85040006DDEDA /* Debug */,
+				4A6199C120C85040006DDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A61998B20C85019006DDEDA /* Project object */;
+}

@@ -1,0 +1,17 @@
+.u-bgUserColorLightest {
+    background-color: #2b2b2b !important;
+}
+
+/*Blur when tweet, media, and DMs are open*/
+.overlay-enabled .PermalinkOverlay,
+.gallery-overlay,
+.DMDialog.modal-container {
+    background: rgba(0,0,0,0.5) !important;
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/*Blur on top bar*/
+.global-nav-inner {
+    background: rgba(52, 52, 52, .7) !important;
+    -webkit-backdrop-filter: blur(45px) saturate(130%) contrast(130%);
+}
